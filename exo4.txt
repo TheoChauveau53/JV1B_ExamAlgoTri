@@ -1,5 +1,6 @@
-le tri à bulles est très lent car il fait beaucoup d'action pour trier le tableau.
+Le tri à bulles est très lent car il fait beaucoup d'action pour trier le tableau.
 A chaque itération, il compare chaque case avec la suivante et les permute s'il y a besoin alors
 que certains tris plus rapides cherchent simplement le nombre le plus grand de la liste afin de le
 placer directement à la fin du tableau. Ce qui évite d'avoir à déplacer les plus grands nombres case 
-par case à travers le tableau.
+par case à travers le tableau. Il est donc beaucoup plus lent qu'un tri par sélection par exemple
+et fait presque le double d'actions pour le même résultat.
